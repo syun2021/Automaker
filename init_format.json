@@ -1,0 +1,44 @@
+{
+    "set1":
+    {
+        "import":["import subprocess",
+                "import time",
+                "from selenium import webdriver",
+                "from selenium.webdriver.chrome import service",
+                "from selenium.webdriver.common.by import By"],
+
+        "main":[]
+    },
+
+    "set2":
+    {
+        "import":["import subprocess",
+                "import time",
+                "from selenium import webdriver",
+                "from selenium.webdriver.chrome import service",
+                "from selenium.webdriver.common.by import By"],
+
+        "main":
+            ["def main()"],
+
+        "call":["if __name__ == __main__:",
+                "\tmain()"]
+    },
+
+    "set3":
+    {
+        "import":["import subprocess",
+                "import time",
+                "from selenium import webdriver",
+                "from selenium.webdriver.chrome import service",
+                "from selenium.webdriver.common.by import By"],
+
+        "class_main":["class Main():",
+                "\tdef __init__(self, *args, **kwargs):"],
+
+        "main":["\tdef main(self):"],
+
+        "call":["if __name__ == \"__main__\":",
+                "\tMain().main()"]
+    }
+}
